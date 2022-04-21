@@ -7,11 +7,15 @@ const connect = function () {
   });
 
   conn.on("connect", () => {
-    console.log("connected");
+    console.log("connected succesfully");
   });
 
   conn.on("data", (data) => {
     console.log(data);
+  });
+
+  conn.on("connect", () => {
+    conn.write("Name: ESL");
   });
 
   conn.setEncoding("utf8");
