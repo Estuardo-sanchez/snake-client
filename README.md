@@ -8,7 +8,7 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["snake displaying name"](https://github.com/Estuardo-sanchez/snake-client/blob/main/Screen%20Shot%202022-04-22%20at%202.03.29%20PM.png)
+!["snake displaying name"](https://github.com/Estuardo-sanchez/snake-client/commit/2ac572092f37543270f53c43daf4b47bf33c2c7f)
 !["snake growing by eating"](https://github.com/Estuardo-sanchez/snake-client/blob/main/Screen%20Shot%202022-04-22%20at%202.02.37%20PM.png)
 
 
