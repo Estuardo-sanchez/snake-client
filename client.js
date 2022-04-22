@@ -16,7 +16,14 @@ const connect = function () {
 
   conn.on("connect", () => {
     conn.write("Name: ESL");
+    // setTimeout(() => conn.write("Move: up"), 50);
+    // setTimeout(() => conn.write("Move: left"), 100);
+    // setTimeout(() => conn.write("Move: down"), 150);
+    // setTimeout(() => conn.write("Move: right"), 200);
+    
   });
+
+  
 
   conn.setEncoding("utf8");
 
